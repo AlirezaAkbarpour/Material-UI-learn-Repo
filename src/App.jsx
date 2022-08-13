@@ -1,8 +1,9 @@
 import React from 'react'
 import './App.css'
-import { MuiAccordion } from './components/muiAccordion'
-import { MuiCard } from './components/muiCart'
-import { MuiImageList } from './components/muiImgeList'
+import { MuiLink } from './components/muiLink'
+//import { MuiAccordion } from './components/muiAccordion'
+//import { MuiCard } from './components/muiCart'
+//import { MuiImageList } from './components/muiImgeList'
 //import { MuiAutoComplete } from './components/muiAutoComplete'
 //import { MuiLayout } from './components/muiLayout'
 //import Muibuttons from './components/muiButtons'
@@ -12,6 +13,7 @@ import { MuiImageList } from './components/muiImgeList'
 //import { MuiSelect } from './components/muiSelect'
 //import { MuiSwitch } from './components/muiSwitch'
 //import { MuiTextField } from './components/muiTextField'
+//import {MuiNavbar} from './components/muiNavbar'
 
 function App() {
   return (
@@ -26,8 +28,10 @@ function App() {
      {/*<MuiAutoComplete/>*/}
      {/*<MuiLayout/>*/}
      {/*<MuiCard/>*/}
-    {/* <MuiAccordion/>*/}
-    <MuiImageList/>
+     {/* <MuiAccordion/>*/}
+     {/*<MuiImageList/>*/}
+      {/*<MuiNavbar/>*/}
+      <MuiLink/>
     </div>
   )
 }
