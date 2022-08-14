@@ -1,6 +1,10 @@
 import React from 'react'
 import './App.css'
-import { MuiLink } from './components/muiLink'
+import { MuiBottomNavigation } from './components/muiBottomNav'
+//import { MuiSpeedDial } from './components/muiSpeedDial'
+//import { MuiBreadcrumbs } from './components/muiBreadcrumbs'
+//import { MuiDrawer } from './components/muiDrawer'
+//import { MuiLink } from './components/muiLink'
 //import { MuiAccordion } from './components/muiAccordion'
 //import { MuiCard } from './components/muiCart'
 //import { MuiImageList } from './components/muiImgeList'
@@ -30,8 +34,12 @@ function App() {
      {/*<MuiCard/>*/}
      {/* <MuiAccordion/>*/}
      {/*<MuiImageList/>*/}
-      {/*<MuiNavbar/>*/}
-      <MuiLink/>
+     {/*<MuiNavbar/>*/}
+     {/*<MuiLink/>*/}
+     {/*<MuiBreadcrumbs/>*/}
+     {/*<MuiDrawer/>*/}
+     {/*<MuiSpeedDial/>*/}
+     <MuiBottomNavigation/>
     </div>
   )
 }
