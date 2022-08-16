@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import { MuiTooltip } from './components/muiTooltip'
+import { MuiAlert } from './components/muiAlert'
+//import { MuiTooltip } from './components/muiTooltip'
 //import { MuiChip } from './components/muiChip'
 //import { MuiList } from './components/muiList'
 //import { MuiBottomNavigation } from './components/muiBottomNav'
@@ -23,6 +24,8 @@ import { MuiTooltip } from './components/muiTooltip'
 //import {MuiNavbar} from './components/muiNavbar'
 //import { MuiAvatar } from './components/muiAvatar'
 //import { MuiBadge } from './components/muiBadge'
+//import { MuiTable } from './components/muiTable'
+
 
 function App() {
   return (
@@ -49,7 +52,9 @@ function App() {
      {/*<MuiBadge/>*/}
      { /*<MuiList/>*/}
       {/*<MuiChip/>*/}
-      <MuiTooltip/>
+      {/*<MuiTooltip/>*/}
+     {/* <MuiTable/>*/}
+     <MuiAlert/>
     </div>
   )
 }
