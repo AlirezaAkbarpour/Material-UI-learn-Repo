@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css'
-import { MuiBottomNavigation } from './components/muiBottomNav'
+import { MuiTooltip } from './components/muiTooltip'
+//import { MuiChip } from './components/muiChip'
+//import { MuiList } from './components/muiList'
+//import { MuiBottomNavigation } from './components/muiBottomNav'
 //import { MuiSpeedDial } from './components/muiSpeedDial'
 //import { MuiBreadcrumbs } from './components/muiBreadcrumbs'
 //import { MuiDrawer } from './components/muiDrawer'
@@ -18,6 +21,8 @@ import { MuiBottomNavigation } from './components/muiBottomNav'
 //import { MuiSwitch } from './components/muiSwitch'
 //import { MuiTextField } from './components/muiTextField'
 //import {MuiNavbar} from './components/muiNavbar'
+//import { MuiAvatar } from './components/muiAvatar'
+//import { MuiBadge } from './components/muiBadge'
 
 function App() {
   return (
@@ -39,7 +44,12 @@ function App() {
      {/*<MuiBreadcrumbs/>*/}
      {/*<MuiDrawer/>*/}
      {/*<MuiSpeedDial/>*/}
-     <MuiBottomNavigation/>
+     {/*<MuiBottomNavigation/>*/}
+     {/*<MuiAvatar/>*/}
+     {/*<MuiBadge/>*/}
+     { /*<MuiList/>*/}
+      {/*<MuiChip/>*/}
+      <MuiTooltip/>
     </div>
   )
 }
