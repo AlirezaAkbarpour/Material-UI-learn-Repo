@@ -1,6 +1,13 @@
 import React from 'react'
 import './App.css'
-import { MuiAlert } from './components/muiAlert'
+
+import {MuiPicker} from './components/muiPicker'
+//import { MuiLoading } from './components/muiLoading'
+//import { MuiProgress } from './components/muiProgress'
+//import { MuiSkeleton } from './components/muiSkeleton'
+//import { MuiDialog } from './components/muiDialog'
+//import { MuiSnackbar } from './components/muiSnackbar'
+//import { MuiAlert } from './components/muiAlert'
 //import { MuiTooltip } from './components/muiTooltip'
 //import { MuiChip } from './components/muiChip'
 //import { MuiList } from './components/muiList'
@@ -25,12 +32,13 @@ import { MuiAlert } from './components/muiAlert'
 //import { MuiAvatar } from './components/muiAvatar'
 //import { MuiBadge } from './components/muiBadge'
 //import { MuiTable } from './components/muiTable'
-
+//import {Home} from './pages/home'
 
 function App() {
   return (
     <div className="App">
-     {/**<Muibuttons/> */} 
+      {/*<Home/>*/}
+     {/*<Muibuttons/>*/}
      {/*<MuiTextField/>*/}
      {/**<MuiSelect/> */} 
      {/* <MuiRadioButton/>*/}
@@ -54,7 +62,13 @@ function App() {
       {/*<MuiChip/>*/}
       {/*<MuiTooltip/>*/}
      {/* <MuiTable/>*/}
-     <MuiAlert/>
+     {/*<MuiAlert/>*/}
+     {/*<MuiSnackbar/>*/}
+    {/* <MuiDialog/>*/}
+    {/* <MuiProgress/>*/}
+    {/*<MuiSkeleton/>*/}
+    {/*<MuiLoading/>*/}
+    <MuiPicker/>
     </div>
   )
 }
