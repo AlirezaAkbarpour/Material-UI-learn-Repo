@@ -1,7 +1,12 @@
+import { createTheme , colors, ThemeProvider} from '@mui/material'
 import React from 'react'
 import './App.css'
-
-import {MuiPicker} from './components/muiPicker'
+import { MuiResponsiveness } from './components/muiResponsiveness'
+//import { MuiMasonry } from './components/muiMansonry'
+//import { MuiTabs } from './components/muiTabs'
+//import { MuiTimeLine } from './components/muiTimeLine'
+//import { MuiDateRangePicker } from './components/muiDateRangePicker'
+//import {MuiPicker} from './components/muiPicker'
 //import { MuiLoading } from './components/muiLoading'
 //import { MuiProgress } from './components/muiProgress'
 //import { MuiSkeleton } from './components/muiSkeleton'
@@ -34,8 +39,22 @@ import {MuiPicker} from './components/muiPicker'
 //import { MuiTable } from './components/muiTable'
 //import {Home} from './pages/home'
 
+const theme = createTheme(
+  { 
+    status:{
+          danger: colors.red[700]
+    },
+    palette:{
+        secondary:{
+          main: colors.lime[500]
+        }
+    }
+  }
+)
+
 function App() {
   return (
+    <ThemeProvider theme={theme}>
     <div className="App">
       {/*<Home/>*/}
      {/*<Muibuttons/>*/}
@@ -68,8 +87,14 @@ function App() {
     {/* <MuiProgress/>*/}
     {/*<MuiSkeleton/>*/}
     {/*<MuiLoading/>*/}
-    <MuiPicker/>
+    {/*<MuiPicker/>*/}
+    {/*<MuiDateRangePicker/>*/ }
+    {/*<MuiTabs/>*/}
+    {/*<MuiTimeLine/>*/}
+     { /*<MuiMasonry/>*/}
+     <MuiResponsiveness/>
     </div>
+    </ThemeProvider>
   )
 }
 
